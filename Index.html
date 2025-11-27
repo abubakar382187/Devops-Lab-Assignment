@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fawad's CV</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ecf0f1;
+            color: #333;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            border-top: 8px solid #0072ff;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, #00c6ff, #0072ff);            
+            color: #ffffff;
+            margin-bottom: 10px;
+            padding: 30px;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .profile-image {
+            flex-shrink: 0;
+            margin-right: 20px;
+        }
+
+        .profile-image img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .header-text {
+            flex-grow: 1;
+        }
+
+        .header-text h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .header-text h3 {
+            margin: 10px 0 0 0;
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.75rem;
+            color: #0091ff;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .content {
+            padding: 0 10px;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .skills div {
+            background-color: #d6eaf8;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .contact-info {
+            background-color: #f7f9f9;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+            font-size: 1rem;
+        }
+
+        .contact-info a {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="profile-image">
+                <img src="profile.jpg" alt="Profile Photo">
+            </div>
+            <div class="header-text">
+                <h1>Muhammad Fawad</h1>
+                <h3>BS Artificial Intelligence Student</h3>
+            </div>
+        </div>
+
+        <div class="section contact-info">
+            <h2>Contact Information</h2>
+            <p>Address: VPO Jarmot Kalan, Teh. Gujar Khan, Dist. Rawalpindi</p>
+            <p>Phone: +92 312 5253336</p>
+            <p>Email: <a href="mailto:muhammad.fawad.n1@gmail.com">muhammad.fawad.n1@gmail.com</a></p>
+        </div>
+
+        <div class="section">
+            <h2>Summary</h2>
+            <div class="content">
+                <p>
+                    As a dedicated BS Artificial Intelligence student at Shifa Tameer-e-Millat University, I am passionate about leveraging cutting-edge AI technologies to solve real-world problems. Eager to build a successful career in AI, I am actively developing my skills in machine learning, data analysis, and programming.
+                </p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div>Python (AI/ML)</div>
+                <div>Java (OOP)</div>
+                <div>C++ (System Programming)</div>
+                <div>TensorFlow & PyTorch</div>
+                <div>Data Analysis with Pandas & NumPy</div>
+                <div>Adobe Photoshop & Illustrator</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <div class="content">
+                <h3>Lab Assistant - Applied Technologies Institute (ATIN) NLC</h3>
+                <p>09/2022 to 03/2023</p>
+                <ul>
+                    <li>Assisted in developing project concepts, ensuring alignment with technical and design requirements.</li>
+                    <li>Maintained optimal workflow by organizing resources and troubleshooting technical issues.</li>
+                    <li>Enhanced problem-solving and teamwork skills in a fast-paced environment.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="content">
+            <ul>
+                <li><h3>Bachelor of Science in Artificial Intelligence</h3></li>
+                <p>Shifa Tameer-e-Millat University, Islamabad (Expected Graduation: 2027)</p>
+                <li><h3>Diploma of Associate Engineering in Computer Information Technology</h3></li>
+                <p>Applied Technologies Institute (ATIN) NLC,Gujar Khan (2019-2022)</p>
+                <li><h3>Matric in Computer Science</h3></li>
+                <p>Seena Academy Model School,Sohawa</p>
+            </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Certifications</h2>
+            <div class="content">
+                <ul>
+                    <li>Diploma in Information Technology (DIT) - Government Technical Training Centre (GTTC)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Languages</h2>
+            <div class="content">
+                <ul>
+                    <li>Urdu</li>
+                    <li>English</li>
+                    <li>Pothwari</li>
+                    <li>Punjabi</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Hobbies</h2>
+            <div class="content">
+                <ul>
+                    <li>Learning new skills and staying updated with advancements in IT and AI</li>
+                    <li>Exploring new technologies and tools</li>
+                    <li>Playing football</li>
+                    <li>Enjoying e-games</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
